@@ -1,0 +1,48 @@
+.contactMe{
+     color: white !important;
+ }
+.info{
+    background-image: url("../media/portfolio2.png");
+    position: absolute;
+    height: 660px;
+}
+.info1{
+    top: 200px;
+    left: 50px;
+}
+.socialMedia{
+    top: 450px;
+    left: 150px;
+}
+.info h1 {
+    font-family: "MyWebFont";
+    font-size: 7em;
+    color: #110944;
+}
+.info h2{
+    font-family: "assistant";
+    font-size: 1em;
+    color: #311e91;
+}
+
+.Socialicon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.button{
+    background-color: #7864e1 !important;
+    color: aliceblue !important;
+}
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../media/font.ttf');
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../media/robotoBold.ttf');
+}
+@font-face {
+    font-family: 'assistant';
+    src: url('../media/assistant.ttf');
+}
