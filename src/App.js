@@ -3,23 +3,26 @@ import Image from "./image/Image";
 import Form from "./Form/Form";
 import Footer from "./footer/Footer";
 import Education from "./Education/Education";
-import Ensa from "./media/Ensa.png";
-import middleEducation from "./media/middleEducation.png";
+import Projects from "./Projects/Projects";
 
 function App() {
   return (
     <div className="App">
       <Image></Image>
       <Footer></Footer>
-      <Form id="form"></Form>
         <div className="ui grid">
             <div className="row">
-                <div className="eight wide column">
-                    <Education></Education>
+                <div className="one wide column"></div>
+                <div className="seven wide column">
+                    <Education ></Education>
                 </div>
-                <div className="eight wide column">hh</div>
+                <div className="one wide column"></div>
+                <div className="seven wide column">
+                    <Projects></Projects>
+                </div>
             </div>
         </div>
+        <Form id="form"></Form>
     </div>
   );
 }
