@@ -11,8 +11,8 @@
     left: 50px;
 }
 .socialMedia{
-    top: 450px;
-    left: 150px;
+    top: 400px !important;
+    left: 150px !important;
 }
 .info h1 {
     font-family: "MyWebFont";

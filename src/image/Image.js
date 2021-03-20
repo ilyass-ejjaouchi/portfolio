@@ -6,8 +6,11 @@ import WhiteLinkedin from '../media/whiteLinkedin.png';
 import facebook from '../media/facebook.png';
 import insta from '../media/insta.png';
 import linkedin from '../media/linkedin.png';
+import github from '../media/github.png';
+import githubWhite from '../media/githubWhite.png';
 import 'semantic-ui-css/semantic.min.css';
 import {Link} from 'react-scroll'
+import SocialMedia from "./SocialMedia/SocialMedia";
 class Image extends Component {
     render() {
         return (
@@ -20,20 +23,7 @@ class Image extends Component {
                         <button className="ui button large">
                             <Link to="form" spy={true} smooth={true} className="contactMe">Contact me</Link></button>
                     </div>
-                    <div className="six wide column socialMedia">
-                        <div className="right floated">
-                            <img className="Socialicon" src={WhiteFacebook} alt="whiteFacebook"
-                                 onMouseOver={e => e.currentTarget.src = facebook}
-                                 onMouseLeave={e => e.currentTarget.src = WhiteFacebook}/> <br/>
-                            <img className="Socialicon" src={WhiteInsta} alt="WhiteFacebook"
-                                 onMouseOver={e => e.currentTarget.src =insta }
-                                 onMouseLeave={e => e.currentTarget.src = WhiteInsta}/><br/>
-                            <img className="Socialicon" src={WhiteLinkedin} alt="WhiteLinkedin"
-                                 onMouseOver={e => e.currentTarget.src =linkedin }
-                                 onMouseLeave={e => e.currentTarget.src = WhiteLinkedin}/> <br/>
-                            <i className=" github icon Socialicon"></i>
-                        </div>
-                    </div>
+                    <SocialMedia></SocialMedia>
                 </div>
             </div>
         );
