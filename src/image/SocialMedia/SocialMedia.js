@@ -24,7 +24,7 @@ class SocialMedia extends Component {
             },
             {src1: githubWhite,
                 src2: github,
-                link:"https://www.linkedin.com/in/ilyass-ejjaouchi/"
+                link:"https://github.com/ilyass-ejjaouchi"
             }
         ]
         const listicons = socialMedias.map((icon) =>
