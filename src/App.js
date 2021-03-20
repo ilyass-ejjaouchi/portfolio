@@ -4,6 +4,7 @@ import Form from "./Form/Form";
 import Footer from "./footer/Footer";
 import Education from "./Education/Education";
 import Projects from "./Projects/Projects";
+import Experience from "./Experience/Experience";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                 </div>
             </div>
         </div>
+        <Experience></Experience>
         <Form id="form"></Form>
     </div>
   );
