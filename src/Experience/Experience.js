@@ -74,11 +74,11 @@ class Experience extends Component {
         );
         return (
             <div className="ui grid">
-                <h1>Experiences</h1><hr/>
                 <div className="row">
-                    <div className="two wide column">
+                    <div className="one wide column">
                     </div>
-                    <div className="seven wide column">
+                    <div className="eight wide column">
+                        <div data-aos="fade-right"><h1>Experiences</h1><hr/></div>
                         {experiences}
                     </div>
                     <div className="seven wide column">
