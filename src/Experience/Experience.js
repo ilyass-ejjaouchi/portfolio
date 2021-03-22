@@ -18,10 +18,7 @@ class Experience extends Component {
         const experienceItems =[
             {company:"Adria Business & Technology",
                 title:"INTERNATIONAL TRANSFER (MIGRATION BCP & AWB AFRICA)",
-                description:"▪ Developed by a team of 2 peoples using the AGILE method\n" +
-                    "▪ The front-end of the application is developed by IONIC 4 and Angular framework, the back-end is developed\n" +
-                    "by Spring boot\n" +
-                    "▪ Using Spring Security and JWT for application security",
+                description:"In progress ...",
                 year:2021,
                 icon: adria},
             {company:"AMENAL",
@@ -42,7 +39,7 @@ class Experience extends Component {
                 icon: Synergie},
             {company:"OCP GROUP",
                 title:"CONCEPTION AND CREATION OF A WEB APPLICATION FOR STOCK MANAGEMENT",
-                description:"The application is developed in JAVA EE and Thymeleaf",
+                description:"The project is a monolithic application designed on the basis of the MVC design pattern on the server side, the presentation part is developed by the template engine Thymeleaf",
                 year:2019,
                 icon: Ocp},
             {company:"ONEE",
@@ -85,8 +82,8 @@ class Experience extends Component {
                         {experiences}
                     </div>
                     <div className="seven wide column">
+                        <br/><br/><br/><br/><br/><br/>
                         <img src={experienceImg} alt="experienceImg"  />
-                        <img src={experienceImg2} alt="experienceImg"  />
                     </div>
                 </div>
             </div>
