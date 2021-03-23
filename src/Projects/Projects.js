@@ -11,7 +11,7 @@ class Projects extends Component {
        const projectItems = [
            {title:"Conception and creation of a REST API which manages publications within of a review scientist with spring boot,spring security and JWT",
            link1:"https://github.com/ilyass-ejjaouchi", link2:"https://github.com/ilyass-ejjaouchi/gestionRevue"},
-           {title:"Conception and of a mobile application for absence management with spring boot and IONIC 4",
+           {title:"Conception and realisation of a mobile application for absence management with spring boot and IONIC 4",
            link1:"https://absence-application.herokuapp.com/", link2:"https://github.com/ilyass-ejjaouchi/gestionAbsenceFront"},
            {title:"Creation of pictures research engine with React, Redux, Semantic UI and Pixabay API",
            link1:"https://motorrecherchephotos.herokuapp.com/", link2:"https://github.com/ilyass-ejjaouchi/motorRecherchePhotos"},

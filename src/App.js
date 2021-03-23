@@ -14,16 +14,16 @@ function App() {
         <div className="ui grid">
             <div className="row">
                 <div className="one wide column"></div>
-                <div className="seven wide column">
+                <div className="seven wide column" id="education">
                     <Education ></Education>
                 </div>
                 <div className="one wide column"></div>
                 <div className="seven wide column">
-                    <Projects></Projects>
+                    <Projects id="projects"></Projects>
                 </div>
             </div>
         </div>
-        <Experience></Experience>
+        <Experience id="experiences"></Experience>
         <Form id="form"></Form>
     </div>
   );
