@@ -3,7 +3,9 @@ import 'semantic-ui-css/semantic.min.css';
 import './Projects.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init();
+AOS.init({
+    duration: 1500
+});
 
 class Projects extends Component {
 

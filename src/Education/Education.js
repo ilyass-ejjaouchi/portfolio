@@ -4,7 +4,9 @@ import './Education.css';
 import Ensa from '../media/Ensa.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-AOS.init();
+AOS.init({
+    duration: 1500
+});
 
 class Education extends Component {
 

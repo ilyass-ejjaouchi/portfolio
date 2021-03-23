@@ -18,12 +18,12 @@ function App() {
                     <Education ></Education>
                 </div>
                 <div className="one wide column"></div>
-                <div className="seven wide column">
-                    <Projects id="projects"></Projects>
+                <div className="seven wide column" id="projects">
+                    <Projects></Projects>
                 </div>
             </div>
         </div>
-        <Experience id="experiences"></Experience>
+        <div id="experiences"><Experience></Experience></div>
         <Form id="form"></Form>
     </div>
   );

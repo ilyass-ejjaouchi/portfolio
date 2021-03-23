@@ -9,8 +9,9 @@ import Synergie from '../media/SynergieLogo.png';
 import adria from '../media/AdriaLogo.png';
 import Onee from '../media/OneLogo.png';
 import experienceImg from '../media/experienceImg.png';
-import experienceImg2 from '../media/experienceImg2.png';
-AOS.init();
+AOS.init({
+    duration: 1500
+});
 
 class Experience extends Component {
 
@@ -50,7 +51,7 @@ class Experience extends Component {
         ];
         const experiences = experienceItems.map((experience) =>
             <div className="ui divided items">
-                <div className="item" data-aos="fade-right">
+                <div className="item" data-aos="fade-right" data-aos-duration="1500">
                     <div className="image">
                         <img src={experience.icon}/>
                     </div>
