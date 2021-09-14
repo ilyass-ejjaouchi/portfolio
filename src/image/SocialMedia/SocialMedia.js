@@ -12,23 +12,31 @@ import './SocialMedia.css';
 class SocialMedia extends Component {
     render() {
         const socialMedias = [
-            {src1:WhiteFacebook,
+            {
+                id:1,
+                src1:WhiteFacebook,
                 src2: facebook,
                 link:"https://www.facebook.com/profile.php?id=100008194386790"},
-            {src1:WhiteInsta,
+            {
+                id:2,
+                src1:WhiteInsta,
                 src2: insta,
                 link:"https://www.instagram.com/ilyass_ezzaouchi/"},
-            {src1:WhiteLinkedin,
+            {
+                id:3,
+                src1:WhiteLinkedin,
                 src2: linkedin,
                 link:"https://www.linkedin.com/in/ilyass-ejjaouchi/"
             },
-            {src1: githubWhite,
+            {
+                id:4,
+                src1: githubWhite,
                 src2: github,
                 link:"https://github.com/ilyass-ejjaouchi"
             }
         ]
         const listicons = socialMedias.map((icon) =>
-            <div>
+            <div key={icon.id}>
                 <a href={icon.link} target="_blank">
                     <img className="Socialicon" src={icon.src1} alt={icon.src1}
                          onMouseOver={e => e.currentTarget.src = icon.src2}
