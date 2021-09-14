@@ -2,8 +2,10 @@ import React , {Component} from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import './Education.css';
 import Ensa from '../media/Ensa.png';
+import UFR from '../media/UFR.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {withTranslation} from "react-i18next";
 AOS.init({
     duration: 1500
 });
@@ -11,26 +13,29 @@ AOS.init({
 class Education extends Component {
 
     render() {
+        const {t} = this.props;
         return (
                 <div className="row">
-                    <h1 data-aos="fade-right">Education</h1><hr/>
-                    <img src={Ensa} alt="ensa" data-aos="fade-right"/>
-                    <div className="education" data-aos="fade-right">
-                        <h2>Software Engineering Student</h2>
-                        <p><b>ENSA's Computer Engineering graduates are capable of working in a wide
-                            variety of professions in virtually all sectors of the economy.
-                            They have the necessary technical skills combined with good interpersonal
-                            skills and an awareness of organizations and the functioning of companies.
-                            From a technical point of view, he/she has the ability to design
-                            (components or software architecture) as well as to integrate
-                            (assembly of sub-assemblies whose functionalities and coordination are mastered).
-                            The acquisition of these technical skills gives a large part to self-training,
-                            so as to ensure a good adaptation to one's professional environment and to future developments.
-                        </b></p>
+                    <h1 data-aos="fade-right">{t('label.Education')}</h1><hr/>
+                    <div>
+                        <img src={UFR} alt="ufr" data-aos="fade-right"/>
+                        <div className="education" data-aos="fade-right">
+                            <h2>{t('title.Education1')}</h2>
+                            <p><b>{t('title.Formation1')}</b></p>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div>
+                        <img src={Ensa} alt="ensa" data-aos="fade-right"/>
+                        <div className="education" data-aos="fade-right">
+                            <h2>{t('title.Education2')}</h2>
+                            <p><b>{t('title.Formation2')}</b></p>
+                        </div>
                     </div>
                 </div>
         );
     }
 }
+Education = withTranslation('common')(Education)
 export default Education;
 

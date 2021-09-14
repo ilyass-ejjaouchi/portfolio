@@ -9,6 +9,7 @@ import Synergie from '../media/SynergieLogo.png';
 import adria from '../media/AdriaLogo.png';
 import Onee from '../media/OneLogo.png';
 import experienceImg from '../media/experienceImg.png';
+import {withTranslation} from "react-i18next";
 AOS.init({
     duration: 1500
 });
@@ -16,41 +17,45 @@ AOS.init({
 class Experience extends Component {
 
     render() {
+        const {t} = this.props;
         const experienceItems =[
-            {company:"Adria Business & Technology",
-                title:"INTERNATIONAL TRANSFER (MIGRATION BCP & AWB AFRICA)",
-                description:"In progress ...",
+            {   id:1,
+                company:"Adria Business & Technology",
+                title:t('experience.title1'),
+                description:t('experience.description1').split('\n').map(line => <p>{line}</p>),
                 year:2021,
                 icon: adria},
-            {company:"AMENAL",
-                title:"CONCEPTION AND CREATION OF A MOBILE APPLICATION FOR SITE MANAGEMENT",
-                description:"▪ Developed by a team of 2 peoples using the AGILE method\n" +
-                    "▪ The front-end of the application is developed by IONIC 4 and Angular framework, the back-end is developed\n" +
-                    "by Spring boot\n" +
-                    "▪ Using Spring Security and JWT for application security",
+            {
+                id:2,
+                company:"AMENAL",
+                title:t('experience.title2'),
+                description:t('experience.description2').split('\n').map(line => <p>{line}</p>),
                 year:2020,
                 icon: Amenal},
-            {company:"SYNERGIE MEDIA",
-                title:"CONCEPTION AND CREATION OF A WEB APPLICATION FOR MANAGING CSV FILES",
-                description:"The application is developed in PHP (Laravel Framework)"+
-                    "Creating an order using Laravel job that runs daily to read csv files from " +
-                    "an FTP server and process them for\n" +
-                    "the purpose of displaying statistics",
+            {
+                id:3,
+                company:"SYNERGIE MEDIA",
+                title:t('experience.title3'),
+                description:t('experience.description3').split('\n').map(line => <p>{line}</p>),
                 year:2019,
                 icon: Synergie},
-            {company:"OCP GROUP",
-                title:"CONCEPTION AND CREATION OF A WEB APPLICATION FOR STOCK MANAGEMENT",
-                description:"The project is a monolithic application designed on the basis of the MVC design pattern on the server side, the presentation part is developed by the template engine Thymeleaf",
+            {
+                id:4,
+                company:"OCP GROUP",
+                title:t('experience.title4'),
+                description:t('experience.description4'),
                 year:2019,
                 icon: Ocp},
-            {company:"ONEE",
-                title:"OBSERVATION INTERNSHIP",
-                description:"Upgrade of the LAN network of the provincial service agency of Beni Mellal and installation of secure access routers via a 4G/3G mobile network",
+            {
+                id:5,
+                company:"ONEE",
+                title:t('experience.title4'),
+                description:t('experience.description5'),
                 year:2018,
                 icon: Onee}
         ];
         const experiences = experienceItems.map((experience) =>
-            <div className="ui divided items">
+            <div className="ui divided items" key={experience.id}>
                 <div className="item" data-aos="fade-right" data-aos-duration="1500">
                     <div className="image">
                         <img src={experience.icon}/>
@@ -79,7 +84,7 @@ class Experience extends Component {
                     <div className="one wide column">
                     </div>
                     <div className="eight wide column">
-                        <div data-aos="fade-right"><h1>Experiences</h1><hr/></div>
+                        <div data-aos="fade-right"><h1>{t('title.Experiences')}</h1><hr/></div>
                         {experiences}
                     </div>
                     <div className="seven wide column">
@@ -91,5 +96,6 @@ class Experience extends Component {
         );
     }
 }
+Experience = withTranslation('common')(Experience);
 export default Experience;
 

@@ -3,6 +3,7 @@ import 'semantic-ui-css/semantic.min.css';
 import './Projects.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import {withTranslation} from "react-i18next";
 AOS.init({
     duration: 1500
 });
@@ -10,18 +11,29 @@ AOS.init({
 class Projects extends Component {
 
     render() {
+        const {t} = this.props;
        const projectItems = [
-           {title:"Conception and creation of a REST API which manages publications within of a review scientist with spring boot,spring security and JWT",
-           link1:"https://github.com/ilyass-ejjaouchi", link2:"https://github.com/ilyass-ejjaouchi/gestionRevue"},
-           {title:"Conception and realisation of a mobile application for absence management with spring boot and IONIC 4",
-           link1:"https://absence-application.herokuapp.com/", link2:"https://github.com/ilyass-ejjaouchi/gestionAbsenceFront"},
-           {title:"Creation of pictures research engine with React, Redux, Semantic UI and Pixabay API",
-           link1:"https://motorrecherchephotos.herokuapp.com/", link2:"https://github.com/ilyass-ejjaouchi/motorRecherchePhotos"},
-           {title:"Creation of a desktop application for media library management with JAVA SE, MySQL and Swing",
-           link1:"https://github.com/ilyass-ejjaouchi", link2:"https://github.com/ilyass-ejjaouchi"},
+           {   id:1,
+               title:t('title.project1'),
+               link1:"https://github.com/ilyass-ejjaouchi",
+               link2:"https://github.com/ilyass-ejjaouchi/gestionRevue"},
+
+           {   id:2,
+               title:t('title.project2'),
+               link1:"https://absence-application.herokuapp.com/",
+               link2:"https://github.com/ilyass-ejjaouchi/gestionAbsenceFront"},
+
+           {   id:3,
+               title:t('title.project3'),
+               link1:"https://motorrecherchephotos.herokuapp.com/",
+               link2:"https://github.com/ilyass-ejjaouchi/motorRecherchePhotos"},
+           {   id:4,
+               title:t('title.project4'),
+               link1:"https://github.com/ilyass-ejjaouchi",
+               link2:"https://github.com/ilyass-ejjaouchi"},
        ]
         const projects = projectItems.map((project) =>
-                <tr data-aos="fade-left">
+                <tr data-aos="fade-left" key={project.id}>
                     <td>
                         <div className="content">
                             {project.title}
@@ -33,7 +45,7 @@ class Projects extends Component {
         );
         return (
             <div className="container" data-aos="fade-left">
-                <h1>Projects</h1><hr/>
+                <h1>{t('title.Projects')}</h1><hr/>
                 <table className="ui very basic collapsing celled table">
                     <tbody>
                     {projects}
@@ -43,5 +55,6 @@ class Projects extends Component {
         );
     }
 }
+Projects = withTranslation('common')(Projects)
 export default Projects;
 

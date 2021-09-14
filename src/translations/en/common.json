@@ -1,0 +1,45 @@
+{
+  "label": {
+    "Education": "EDUCATION",
+    "French": "FRENCH",
+    "English": "ENGLISH",
+    "Spanish": "SPANISH",
+    "Contact": "Contact",
+    "FirstName": "First Name",
+    "LastName": "Last Name",
+    "Email": "Email",
+    "Message": "Message",
+    "Submit": "Submit",
+    "discover": "discover more"
+  },
+  "title": {
+    "project1": "Conception and creation of a REST API which manages publications within of a review scientist with spring boot,spring security and JWT",
+    "project2": "Conception and realisation of a mobile application for absence management with spring boot and IONIC 4",
+    "project3": "Creation of pictures research engine with React, Redux, Semantic UI and Pixabay API",
+    "project4": "Creation of a desktop application for media library management with JAVA SE, MySQL and Swing",
+    "Projects": "Projects",
+    "Experiences": "Experiences",
+    "Education1": "Master's degree in computer science, systems and software engineering",
+    "Education2": "Software Engineer",
+    "Formation1": "The core of the Master's degree in Computer Science, Systems and Software Engineering, focuses on in-depth software development techniques, in line with the main themes of the DISC research department of the FEMTO-ST institute and the industrial ecosystem of the course. This course is the standard Master's course in class; it is reinforced in the CMI course (Master's Degree in Engineering, course) which contains in addition some Teaching Units",
+    "Formation2": "ENSA's Computer Engineering graduates are capable of working in a wide variety of professions in virtually all sectors of the economy. They have the necessary technical skills combined with good interpersonal\n skills and an awareness of organizations and the functioning of companies. From a technical point of view, he/she has the ability to design (components or software architecture) as well as to integrate (assembly of sub-assemblies whose functionalities and coordination are mastered). The acquisition of these technical skills gives a large part to self-training, so as to ensure a good adaptation to one's professional environment and to future developments."
+  },
+  "experience": {
+    "title1": "BACK END DIGITAL BANKING SOLUTION IN MICRO SERVICES & FRONT END WITH REACT",
+    "title2": "CONCEPTION AND CREATION OF A MOBILE APPLICATION FOR SITE MANAGEMENT",
+    "title3": "CONCEPTION AND CREATION OF A WEB APPLICATION FOR MANAGING CSV FILES",
+    "title4": "CONCEPTION AND CREATION OF A WEB APPLICATION FOR STOCK MANAGEMENT",
+    "title5": "OBSERVATION INTERNSHIP",
+    "description1": "▪ IMPLEMENTATION OF AN APPLICATION FOR THE MANAGEMENT OF INTERNATIONAL TRANSFERS\nThe project is a microservices application and is used to:\n- Request for an international credit transfer\n- Declaration of international beneficiaries\n- Signing an international transfer request\n- Viewing the history and tracking the status of an international transfer and a beneficiary declaration request beneficiary declaration\n▪ DESIGN AND DEVELOPMENT OF AN ENCRYPTION AND SEALING MODULE\n- The module consists of decrypting and unsealing the downloaded files in order to carry out a reordering before checking the validity of the file. to verify the validity of the file, to do this each client has a public key to do the sealing and for the encryption all clients use the same key to decrypt the downloaded files ",
+    "description2": "▪ Developed by a team of 2 peoples using the AGILE method\n▪ The front-end of the application is developed by IONIC 4 and Angular framework, the back-end is developed by Spring boot\n▪ Using Spring Security and JWT for application security",
+    "description3": "▪ The application is developed in PHP (Laravel Framework) Creating an order using Laravel job that runs daily to read csv files from an FTP server and process them for the purpose of displaying statistics",
+    "description4": "▪ The project is a monolithic application designed on the basis of the MVC design pattern on the server side, the presentation part is developed by the template engine Thymeleaf",
+    "description5": "▪ Upgrade of the LAN network of the provincial service agency of Beni Mellal and installation of secure access routers via a 4G/3G mobile network",
+    "years": "Years of experience",
+    "describeMe": "Web and mobile developer, specialized in microservices with java and front-end with Angular/react"
+  },
+  "info": {
+    "title": "Software engineer (JavaEE, react/Angular), freelancer based in France",
+    "contactMe": "Contact me"
+  }
+}

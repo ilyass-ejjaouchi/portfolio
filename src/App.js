@@ -5,6 +5,9 @@ import Footer from "./footer/Footer";
 import Education from "./Education/Education";
 import Projects from "./Projects/Projects";
 import Experience from "./Experience/Experience";
+import React from "react";
+import Language from "./Language/language";
+import {withTranslation} from "react-i18next";
 
 function App() {
   return (
@@ -25,8 +28,9 @@ function App() {
         </div>
         <div id="experiences"><Experience></Experience></div>
         <Form id="form"></Form>
+        <div id="language"><Language></Language></div>
     </div>
   );
 }
-
+App = withTranslation('common')(App);
 export default App;
