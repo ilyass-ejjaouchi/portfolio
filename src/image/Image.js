@@ -1,13 +1,5 @@
 import React , {Component} from 'react';
 import "./image.css"
-import WhiteFacebook from '../media/whiteFacebook.png';
-import WhiteInsta from '../media/whiteInsta.png';
-import WhiteLinkedin from '../media/whiteLinkedin.png';
-import facebook from '../media/facebook.png';
-import insta from '../media/insta.png';
-import linkedin from '../media/linkedin.png';
-import github from '../media/github.png';
-import githubWhite from '../media/githubWhite.png';
 import 'semantic-ui-css/semantic.min.css';
 import {Link} from 'react-scroll'
 import SocialMedia from "./SocialMedia/SocialMedia";

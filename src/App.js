@@ -12,7 +12,7 @@ import {withTranslation} from "react-i18next";
 function App() {
   return (
     <div className="App">
-      <Image></Image>
+      <div id="image"><Image></Image></div>
       <Footer></Footer>
         <div className="ui grid">
             <div className="row">

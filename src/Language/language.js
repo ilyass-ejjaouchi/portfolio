@@ -3,6 +3,7 @@ import 'semantic-ui-css/semantic.min.css';
 import './language.css';
 import Translate from '../media/translate.png';
 import AOS from 'aos';
+import {Link} from "react-scroll";
 import 'aos/dist/aos.css';
 import {withTranslation} from "react-i18next";
 import Education from "../Education/Education";
@@ -22,9 +23,9 @@ class Language extends Component {
                             <img src={Translate} className="Socialicon"/>
                         </div>
                         <div className="fourteen wide column">
-                            <b><a className="padd" onClick={() => i18n.changeLanguage('fr')}>{t('label.French')}</a></b>
-                            <b><a className="padd" onClick={() => i18n.changeLanguage('en')}>{t('label.English')}</a></b>
-                            <b><a className="padd" onClick={() => i18n.changeLanguage('es')}>{t('label.Spanish')}</a></b>
+                            <b><Link className="padd" to="image" spy={true} smooth={true} onClick={() => i18n.changeLanguage('fr')}>{t('label.French')}</Link></b>
+                            <b><Link className="padd" to="image" spy={true} smooth={true} onClick={() => i18n.changeLanguage('en')}>{t('label.English')}</Link></b>
+                            <b><Link className="padd" to="image" spy={true} smooth={true} onClick={() => i18n.changeLanguage('es')}>{t('label.Spanish')}</Link></b>
                         </div>
                     </div>
                 </div>
