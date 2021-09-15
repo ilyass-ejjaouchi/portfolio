@@ -9,6 +9,7 @@ import React from "react";
 import Language from "./Language/language";
 import {withTranslation} from "react-i18next";
 import education from "./media/education.png";
+import Skills from "./Skills/Skills";
 
 function App() {
   return (
@@ -20,11 +21,12 @@ function App() {
                 <div className="one wide column"></div>
                 <div className="seven wide column" id="education">
                     <Education ></Education>
+                    <img className="paddTop" src={education} alt="educationImg"/>
                 </div>
                 <div className="one wide column"></div>
                 <div className="seven wide column" id="projects">
                     <Projects></Projects>
-                    <img className="paddTop" src={education} alt="educationImg"/>
+                    <Skills></Skills>
                 </div>
             </div>
         </div>

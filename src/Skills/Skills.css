@@ -1,0 +1,10 @@
+@import '../image/image.css';
+
+.content{
+    font-weight: bold;
+    font-family: assistant;
+    color: #110944;
+}
+.icon{
+    margin-left: 10px;
+}

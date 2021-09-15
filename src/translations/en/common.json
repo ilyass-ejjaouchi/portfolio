@@ -19,6 +19,7 @@
     "project4": "Creation of a desktop application for media library management with JAVA SE, MySQL and Swing",
     "Projects": "Projects",
     "Experiences": "Experiences",
+    "Skills": "Skills",
     "Education1": "Master's degree in computer science, systems and software engineering",
     "Education2": "Software Engineer",
     "Formation1": "The core of the Master's degree in Computer Science, Systems and Software Engineering, focuses on in-depth software development techniques, in line with the main themes of the DISC research department of the FEMTO-ST institute and the industrial ecosystem of the course. This course is the standard Master's course in class; it is reinforced in the CMI course (Master's Degree in Engineering, course) which contains in addition some Teaching Units",
@@ -41,5 +42,13 @@
   "info": {
     "title": "Software engineer (JavaEE, react/Angular), freelancer based in France",
     "contactMe": "Contact me"
+  },
+  "skills": {
+    "title1": "SGBD",
+    "title2": "Analysis and Design",
+    "title3": "Programming languages",
+    "title4": "Web development",
+    "title5": "Mobile Development",
+    "title6": "Software/IDE"
   }
 }

@@ -19,6 +19,7 @@
     "project4": "Création d'une application de bureau pour la gestion d'une médiathèque avec JAVA SE, MySQL et Swing",
     "Projects": "Projets",
     "Experiences": "Expériences",
+    "Skills": "Compétences",
     "Education1": "Master en informatique, en ingénierie des systèmes et des logiciels.",
     "Education2": "Ingénieur logiciel",
     "Formation1": "Le cœur du master Informatique, parcours Ingénierie Systèmes et Logiciels porte sur les techniques approfondies du développement logiciel, en phase avec les thématiques phares du département de recherche DISC de l'institut FEMTO-ST et de l'écosystème industriel de la formation. Ce parcours est le parcours standard de Master en présentiel; il est renforcé dans le parcours CMI (Cursus Master en Ingénierie, parcours) qui contient en plus quelques Unités d'Enseignement",
@@ -42,5 +43,13 @@
   "info": {
     "title": "Ingénieur logiciel (JavaEE, react/Angular), freelance basé en France",
     "contactMe": "Contactez-moi"
+  },
+  "skills": {
+    "title1": "SGBD",
+    "title2": "Analyse et Conception",
+    "title3": "Langages de programmation",
+    "title4": "Développement Web",
+    "title5": "Développement Mobile",
+    "title6": "Logiciels/IDE"
   }
 }

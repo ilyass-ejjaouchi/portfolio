@@ -19,6 +19,7 @@
     "project4": "Creación de una aplicación de escritorio para la gestión de mediatecas con JAVA SE, MySQL y Swing",
     "Projects": "Proyectos",
     "Experiences": "Experiencias",
+    "Skills": "Habilidades",
     "Education1": "Máster en informática, ingeniería de sistemas y software",
     "Education2": "Ingeniero de software",
     "Formation1": "El núcleo del Máster en Informática, Sistemas e Ingeniería del Software, se centra en profundizar en las técnicas de desarrollo de software, en línea con los temas principales del departamento de investigación DISC del instituto FEMTO-ST y el ecosistema industrial del curso. Este curso es el curso estándar del Máster en clase; se refuerza en el curso CMI (Máster en Ingeniería, curso) que contiene además algunas Unidades Didácticas",
@@ -41,5 +42,13 @@
   "info": {
     "title": "Ingeniero de software (JavaEE, react/Angular), freelance basado en Francia",
     "contactMe": "Contacta conmigo"
+  },
+  "skills": {
+    "title1": "SGBD",
+    "title2": "Análisis y diseño",
+    "title3": "Lenguajes de programación",
+    "title4": "Desarrollo web",
+    "title5": "Desarrollo móvil",
+    "title6": "Software/IDE"
   }
 }
