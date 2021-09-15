@@ -9,6 +9,7 @@ import Synergie from '../media/SynergieLogo.png';
 import adria from '../media/AdriaLogo.png';
 import Onee from '../media/OneLogo.png';
 import experienceImg from '../media/experienceImg.png';
+import experienceImg2 from '../media/experienceImg2.png';
 import {withTranslation} from "react-i18next";
 AOS.init({
     duration: 1500
@@ -90,6 +91,8 @@ class Experience extends Component {
                     <div className="seven wide column">
                         <br/><br/><br/><br/><br/><br/>
                         <img src={experienceImg} alt="experienceImg"  />
+                        <br/><br/><br/><br/><br/><br/>
+                        <img src={experienceImg2} alt="experienceImg2"  />
                     </div>
                 </div>
             </div>

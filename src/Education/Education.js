@@ -14,6 +14,7 @@ class Education extends Component {
 
     render() {
         const {t} = this.props;
+        const readMoreText = t('label.discover');
         return (
                 <div className="row">
                     <h1 data-aos="fade-right">{t('label.Education')}</h1><hr/>

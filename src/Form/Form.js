@@ -5,15 +5,14 @@ import {withTranslation} from "react-i18next";
 import emailjs from 'emailjs-com';
 
 class Form extends Component {
-    initialState = {
+constructor() {
+    super();
+    this.state = {
         firstName: '',
         lastName: '',
         message: '',
         email: '',
-    }
-constructor() {
-    super();
-    this.state = this.initialState;
+    };
 }
     handleFirstNameChange = (e)=> {
         this.setState({firstName: e.target.value});

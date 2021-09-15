@@ -10,7 +10,7 @@
     "Email": "Email",
     "Message": "Message",
     "Submit": "Submit",
-    "discover": "discover more"
+    "discover": "discover more ..."
   },
   "title": {
     "project1": "Conception and creation of a REST API which manages publications within of a review scientist with spring boot,spring security and JWT",
