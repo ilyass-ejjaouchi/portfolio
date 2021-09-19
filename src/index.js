@@ -8,6 +8,7 @@ import {I18nextProvider} from "react-i18next";
 import common_en from "./translations/en/common.json";
 import common_fr from "./translations/fr/common.json";
 import common_es from "./translations/es/common.json";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 i18next.init({
     interpolation: { escapeValue: false },

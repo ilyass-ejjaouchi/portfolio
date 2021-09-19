@@ -10,7 +10,9 @@
     "Email": "Email",
     "Message": "Message",
     "Submit": "Envoyer",
-    "discover": "découvrir plus ..."
+    "discover": "découvrir plus ...",
+    "Languages": "Langues",
+    "Arabic": "Arabe"
   },
   "title": {
     "project1": "Conception et création d'une API REST qui gère les publications au sein d'une revue scientifique avec spring boot,spring security et JWT",

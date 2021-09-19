@@ -40,6 +40,7 @@ import webstorme from '../media/skills/webstorme.png';
 import datagrip from '../media/skills/datagrip.png';
 import eclipse from '../media/skills/eclipse.png';
 import {withTranslation} from "react-i18next";
+import {ProgressBar} from "react-bootstrap";
 AOS.init({
     duration: 1500
 });
@@ -140,6 +141,13 @@ class Skills extends Component {
                     {mySkills}
                     </tbody>
                 </table>
+                <h1>{t('label.Languages')}</h1>
+                <hr/>
+                <div>
+                    <b>{t('label.French')}</b><ProgressBar now={80}/>
+                    <b>{t('label.English')}</b><ProgressBar now={70}/>
+                    <b>{t('label.Arabic')}</b><ProgressBar now={100}/>
+                </div>
             </div>
         );
     }

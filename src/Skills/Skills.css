@@ -8,3 +8,7 @@
 .icon{
     margin-left: 10px;
 }
+.progress-bar {
+background-color: #30389b !important;
+height: 10px !important;
+}
