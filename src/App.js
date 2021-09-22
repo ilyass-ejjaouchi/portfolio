@@ -32,7 +32,6 @@ function App() {
         </div>
         <div id="experiences"><Experience></Experience></div>
         <Form id="form"></Form>
-        <div id="language"><Language></Language></div>
     </div>
   );
 }
