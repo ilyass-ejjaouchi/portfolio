@@ -3,11 +3,12 @@ import 'semantic-ui-css/semantic.min.css';
 import './Footer.css';
 import {Link} from "react-scroll";
 import {withTranslation} from "react-i18next";
+import i18next from 'i18next';
 
 class Footer extends Component {
 
     render() {
-        const {t} = this.props;
+        const {t} = this.props;        
         return (
                 <div className="ui grid footer">
                     <div className="four wide column">
