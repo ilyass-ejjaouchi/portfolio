@@ -5,22 +5,38 @@ import {Link} from 'react-scroll'
 import SocialMedia from "./SocialMedia/SocialMedia";
 import {withTranslation} from "react-i18next";
 import i18next from 'i18next';
+import {Dropdown, Select} from "semantic-ui-react";
 
 class Image extends Component {
     render() {
         const {t} = this.props;
-        const changeLanguage = (lng) => {
-            i18next.changeLanguage(lng);
+        const changeLanguage = (ev) => {
+            i18next.changeLanguage(ev);
           }
+        const handleChange = (e, { value }) => {
+            changeLanguage(value)};
+
+        const languageOptions = [
+            { key: 'rf', value: 'fr', text: 'Francais' },
+            { key: 'en', value: 'en', text: 'Anglais' },
+            { key: 'es', value: 'es', text: 'Espagnol' }
+        ]
         return (
             <div className="ui grid division">
                 <div className="row info">
                     <div className="ten wide column info1">
                         <div>
-                            <h3>{t('langues')}</h3>
-                            <button className='ui button' onClick={() => changeLanguage('en')}>en</button>
-                            <button className='ui button' onClick={() => changeLanguage('fr')}>fr</button>
-                            <button className='ui button' onClick={() => changeLanguage('es')}>es</button>
+                            <Dropdown
+                                onChange= {handleChange}
+                                button
+                                className='icon'
+                                floating
+                                labeled
+                                icon='world'
+                                options={languageOptions}
+                                search
+                                text='Select Language'
+                            />
                         </div>
                         <h1 className="nom">EJJAOUCHI</h1>
                         <h1 className="prenom">ILYASS</h1>

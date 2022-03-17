@@ -4,6 +4,7 @@ import './Experience.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Amenal from '../media/Amenal.png';
+import CGI from '../media/CGI.png';
 import Ocp from '../media/OCP.png';
 import Synergie from '../media/SynergieLogo.png';
 import adria from '../media/AdriaLogo.png';
@@ -21,34 +22,40 @@ class Experience extends Component {
         const {t} = this.props;
         const experienceItems =[
             {   id:1,
+                company:"CGI",
+                title:t('experience.title0'),
+                description:t('experience.description0').split('\n').map(line => <p>{line}</p>),
+                year:2022,
+                icon: CGI},
+            {   id:2,
                 company:"Adria Business & Technology",
                 title:t('experience.title1'),
                 description:t('experience.description1').split('\n').map(line => <p>{line}</p>),
                 year:2021,
                 icon: adria},
             {
-                id:2,
+                id:3,
                 company:"AMENAL",
                 title:t('experience.title2'),
                 description:t('experience.description2').split('\n').map(line => <p>{line}</p>),
                 year:2020,
                 icon: Amenal},
             {
-                id:3,
+                id:4,
                 company:"SYNERGIE MEDIA",
                 title:t('experience.title3'),
                 description:t('experience.description3').split('\n').map(line => <p>{line}</p>),
                 year:2019,
                 icon: Synergie},
             {
-                id:4,
+                id:5,
                 company:"OCP GROUP",
                 title:t('experience.title4'),
                 description:t('experience.description4'),
                 year:2019,
                 icon: Ocp},
             {
-                id:5,
+                id:6,
                 company:"ONEE",
                 title:t('experience.title4'),
                 description:t('experience.description5'),

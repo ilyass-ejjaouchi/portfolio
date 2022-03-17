@@ -29,11 +29,13 @@
     "Formation2": "Les diplômés de l'ENSA en ingénierie informatique sont capables d'exercer des métiers très variés dans pratiquement tous les secteurs de l'économie. Ils possèdent les compétences techniques nécessaires associées à un bon relationnel et à une sensibilisation aux organisations et au fonctionnement des entreprises. D'un point de vue technique, il/elle a la capacité de concevoir (composants ou architecture logicielle) ainsi que d'intégrer (assemblage de sous-ensembles dont les fonctionnalités et la coordination sont maîtrisées). L'acquisition de ces compétences techniques fait une large part à l'autoformation, de manière à assurer une bonne adaptation à son environnement professionnel et aux évolutions futures."
   },
   "experience": {
+    "title0": "INGÉNIEUR LOGICIEL",
     "title1": "SOLUTION BANCAIRE NUMÉRIQUE BACK END EN MICRO SERVICES & FRONT END AVEC REACT",
     "title2": "CONCEPTION ET RÉALISATION D’UNE APPLICATION MOBILE POUR LA GESTION DES CHANTIERS",
     "title3": "CONCEPTION ET CRÉATION D'UNE APPLICATION WEB DE GESTION DE FICHIERS CSV",
     "title4": "CONCEPTION ET RÉALISATION D'UNE APPLICATION WEB POUR LA GESTION DES STOCKS",
     "title5": "STAGE D'OBSERVATION",
+    "description0": "EN COURS ...",
     "description1": "▪ MISE EN ŒUVRE D'UNE APPLICATION POUR LA GESTION DES TRANSFERTS INTERNATIONAUX.\nLe projet est une application microservices et sert à :\n- Demander un virement international\n- Déclaration des bénéficiaires internationaux\n- La signature d'une demande de virement international\n- Consulter l'historique et suivre le statut d'un transfert international et d'une demande de déclaration de bénéficiaire déclaration de bénéficiaire.\n▪ CONCEPTION ET DÉVELOPPEMENT D'UN MODULE DE CRYPTAGE ET DE SCELLEMENT.\n- Le module consiste à décrypter et desceller les fichiers téléchargés afin d'effectuer un réordonnancement avant de vérifier la validité du fichier. Pour vérifier la validité du fichier, pour cela chaque client dispose d'une clé publique pour effectuer le scellement et pour le cryptage tous les clients utilisent la même clé pour décrypter les fichiers téléchargés. ",
     "description2": "▪ Développé par une équipe de 2 personnes en utilisant la méthode AGILE.\n▪ Le front-end de l'application est développé par IONIC 4 et le framework Angular, le back-end est développé par Spring boot.\n▪ Utilisation de Spring Security et JWT pour la sécurité de l'application.",
     "description3": "▪ L'application est développée en PHP (Framework Laravel) Création d'une commande à l'aide d'un job Laravel qui s'exécute quotidiennement pour lire des fichiers csv depuis un serveur FTP et les traiter dans le but d'afficher des statistiques.",

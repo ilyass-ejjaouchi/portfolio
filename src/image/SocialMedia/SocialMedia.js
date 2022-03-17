@@ -21,7 +21,7 @@ class SocialMedia extends Component {
                 id:2,
                 src1:WhiteInsta,
                 src2: insta,
-                link:"https://www.instagram.com/ilyass_ezzaouchi/"},
+                link:"https://www.instagram.com/ilyass_ejjaouchi/"},
             {
                 id:3,
                 src1:WhiteLinkedin,
