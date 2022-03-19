@@ -1,9 +1,10 @@
-import React , {Component} from 'react';
+import React, {Component} from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import './Projects.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {withTranslation} from "react-i18next";
+
 AOS.init({
     duration: 1500
 });

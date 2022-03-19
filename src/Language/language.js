@@ -1,4 +1,4 @@
-import React , {Component} from 'react';
+import React, {Component} from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import './language.css';
 import Translate from '../media/translate.png';
@@ -6,7 +6,7 @@ import AOS from 'aos';
 import {Link} from "react-scroll";
 import 'aos/dist/aos.css';
 import {withTranslation} from "react-i18next";
-import Education from "../Education/Education";
+
 AOS.init({
     duration: 1500
 });

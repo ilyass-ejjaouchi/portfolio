@@ -1,9 +1,9 @@
-import React , {Component} from 'react';
+import React, {Component} from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import './Experience.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Amenal from '../media/Amenal.png';
+import Amenal  from '../media/Amenal.png';
 import CGI from '../media/CGI.png';
 import Ocp from '../media/OCP.png';
 import Synergie from '../media/SynergieLogo.png';
@@ -12,6 +12,7 @@ import Onee from '../media/OneLogo.png';
 import experienceImg from '../media/experienceImg.png';
 import experienceImg2 from '../media/experienceImg2.png';
 import {withTranslation} from "react-i18next";
+
 AOS.init({
     duration: 1500
 });

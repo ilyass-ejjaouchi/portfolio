@@ -6,10 +6,10 @@ import Education from "./Education/Education";
 import Projects from "./Projects/Projects";
 import Experience from "./Experience/Experience";
 import React from "react";
-import Language from "./Language/language";
 import {withTranslation} from "react-i18next";
-import education from "./media/education.png";
+import education from "./media/education2.png";
 import Skills from "./Skills/Skills";
+import Language from "./Language/language";
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
             </div>
         </div>
         <div id="experiences"><Experience></Experience></div>
+        <Language></Language>
         <Form id="form"></Form>
     </div>
   );

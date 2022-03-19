@@ -1,11 +1,11 @@
-import React , {Component} from 'react';
+import React, {Component} from 'react';
 import "./image.css"
 import 'semantic-ui-css/semantic.min.css';
 import {Link} from 'react-scroll'
 import SocialMedia from "./SocialMedia/SocialMedia";
 import {withTranslation} from "react-i18next";
 import i18next from 'i18next';
-import {Dropdown, Select} from "semantic-ui-react";
+import {Dropdown} from "semantic-ui-react";
 
 class Image extends Component {
     render() {

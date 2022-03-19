@@ -1,4 +1,4 @@
-import React , {Component} from 'react';
+import React, {Component} from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import './Education.css';
 import Ensa from '../media/Ensa.png';
@@ -6,6 +6,7 @@ import UFR from '../media/UFR.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import {withTranslation} from "react-i18next";
+
 AOS.init({
     duration: 1500
 });

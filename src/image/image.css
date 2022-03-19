@@ -3,6 +3,7 @@
  }
 .info{
     background-image: url("../media/portfolio2.svg");
+    width: 100%;
     position: absolute;
     height: 660px;
 }

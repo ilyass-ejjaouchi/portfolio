@@ -1,4 +1,4 @@
-import React , {Component} from 'react';
+import React, {Component} from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import './Skills.css';
 import AOS from 'aos';
@@ -41,6 +41,7 @@ import datagrip from '../media/skills/datagrip.png';
 import eclipse from '../media/skills/eclipse.png';
 import {withTranslation} from "react-i18next";
 import {ProgressBar} from "react-bootstrap";
+
 AOS.init({
     duration: 1500
 });

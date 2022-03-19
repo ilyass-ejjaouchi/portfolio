@@ -1,4 +1,4 @@
-import React , {Component} from 'react';
+import React, {Component} from 'react';
 import WhiteFacebook from '../../media/whiteFacebook.png';
 import WhiteInsta from '../../media/whiteInsta.png';
 import WhiteLinkedin from '../../media/whiteLinkedin.png';
@@ -9,6 +9,7 @@ import github from '../../media/github.png';
 import githubWhite from '../../media/githubWhite.png';
 import 'semantic-ui-css/semantic.min.css';
 import './SocialMedia.css';
+
 class SocialMedia extends Component {
     render() {
         const socialMedias = [

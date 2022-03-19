@@ -29,11 +29,13 @@
     "Formation2": "Los graduados en Ingeniería Informática de ENSA son capaces de trabajar en una amplia variedad de profesiones en prácticamente todos los sectores de la economía. Tienen los conocimientos técnicos necesarios combinados con buenas habilidades interpersonales\n y un conocimiento de las organizaciones y del funcionamiento de las empresas. Desde el punto de vista técnico, tiene la capacidad de diseñar (componentes o arquitectura de software) así como de integrar (montaje de subconjuntos cuyas funcionalidades y coordinación domina). La adquisición de estas competencias técnicas da una gran parte a la autoformación, con el fin de garantizar una buena adaptación a su entorno profesional y a las evoluciones futuras"
   },
   "experience": {
+    "title0": "INGENIERO DE SOFTWARE",
     "title1": "SOLUCIÓN DE BANCA DIGITAL BACK-END EN MICRO SERVICIOS Y FRONT-END CON REACT",
     "title2": "CONCEPCIÓN Y CREACIÓN DE UNA APLICACIÓN MÓVIL PARA LA GESTIÓN DEL SITIO",
     "title3": "CONCEPCIÓN Y CREACIÓN DE UNA APLICACIÓN WEB PARA LA GESTIÓN DE ARCHIVOS CSV",
     "title4": "CONCEPCIÓN Y CREACIÓN DE UNA APLICACIÓN WEB PARA LA GESTIÓN DE EXISTENCIAS",
     "title5": "PRÁCTICAS DE OBSERVACIÓN",
+    "description0": "EN PROCESO ... ",
     "description1": "▪ IMPLEMENTACIÓN DE UNA APLICACIÓN PARA LA GESTIÓN DE TRANSFERENCIAS INTERNACIONALES.\nEl proyecto es una aplicación de microservicios y sirve para:\n- Solicitar una transferencia internacional de crédito\n- Declaración de los beneficiarios internacionales\n- Firmar una solicitud de transferencia internacional\n- Ver el historial y seguir el estado de una transferencia internacional y una declaración de beneficiarios solicitar la declaración de beneficiarios\n▪ DISEÑO Y DESARROLLO DE UN MÓDULO DE ENCRIPTACIÓN Y SELLADO\n- El módulo consiste en desencriptar y desprecintar los ficheros descargados para realizar una reordenación antes de comprobar la validez del fichero. para comprobar la validez del fichero, para ello cada cliente tiene una clave pública para realizar el precintado y para el encriptado todos los clientes utilizan la misma clave para desencriptar los ficheros descargados ",
     "description2": "▪ Desarrollado por un equipo de 2 personas utilizando el método AGILE.\n▪ El front-end de la aplicación está desarrollado por IONIC 4 y Angular framework, el back-end está desarrollado por Spring boot\n▪ Uso de Spring Security y JWT para la seguridad de la aplicación",
     "description3": "▪ La aplicación está desarrollada en PHP (Laravel Framework) Creación de una orden utilizando el trabajo de Laravel que se ejecuta diariamente para leer archivos csv de un servidor FTP y procesarlos con el fin de mostrar las estadísticas",

@@ -1,9 +1,8 @@
-import React , {Component} from 'react';
+import React, {Component} from 'react';
 import 'semantic-ui-css/semantic.min.css';
 import './Footer.css';
 import {Link} from "react-scroll";
 import {withTranslation} from "react-i18next";
-import i18next from 'i18next';
 
 class Footer extends Component {
 
