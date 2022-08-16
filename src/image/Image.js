@@ -19,7 +19,8 @@ class Image extends Component {
         const languageOptions = [
             { key: 'rf', value: 'fr', text: 'Francais' },
             { key: 'en', value: 'en', text: 'Anglais' },
-            { key: 'es', value: 'es', text: 'Espagnol' }
+            { key: 'es', value: 'es', text: 'Espagnol' },
+            { key: 'ar', value: 'ar', text: 'Arabe' }
         ]
         return (
             <div className="ui grid division">

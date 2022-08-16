@@ -2,9 +2,11 @@
      color: white !important;
  }
 .info{
-    background-image: url("../media/portfolio2.svg");
+    background-image: url("../media/portfolio.png");
     width: 100%;
     position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 660px;
 }
 .info1{

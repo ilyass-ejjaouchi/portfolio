@@ -5,6 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Amenal  from '../media/Amenal.png';
 import CGI from '../media/CGI.png';
+import capgemini from '../media/capgemini.png';
 import Ocp from '../media/OCP.png';
 import Synergie from '../media/SynergieLogo.png';
 import adria from '../media/AdriaLogo.png';
@@ -22,6 +23,12 @@ class Experience extends Component {
     render() {
         const {t} = this.props;
         const experienceItems =[
+            {   id:0,
+                company:"Capgemini",
+                title:t('experience.titleCap'),
+                description:t('experience.descriptionCap').split('\n').map(line => <p>{line}</p>),
+                year:2022,
+                icon: capgemini},
             {   id:1,
                 company:"CGI",
                 title:t('experience.title0'),

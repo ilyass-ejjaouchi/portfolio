@@ -23,6 +23,8 @@ import laravel from '../media/skills/laravel.png';
 import bootstrap from '../media/skills/bootstrap.png';
 import jquery from '../media/skills/jquery.png';
 import sonarqube from '../media/skills/sonarqube.png';
+import docker from '../media/skills/docker.png';
+import jenkins from '../media/skills/jenkins.png';
 import java from '../media/skills/java.png';
 import pl from '../media/skills/pl.png';
 import php from '../media/skills/php.png';
@@ -30,7 +32,6 @@ import c from '../media/skills/c.png';
 import csharp from '../media/skills/c#.png';
 import cplus from '../media/skills/c++.png';
 import uml from '../media/skills/uml.png';
-import access from '../media/skills/Access.png';
 import mysql from '../media/skills/mysql.png';
 import oracle from '../media/skills/oracle.png';
 import postgresql from '../media/skills/postgresql.png';
@@ -39,6 +40,7 @@ import intellej from '../media/skills/intellej.png';
 import webstorme from '../media/skills/webstorme.png';
 import datagrip from '../media/skills/datagrip.png';
 import eclipse from '../media/skills/eclipse.png';
+import talend from '../media/skills/talend.png';
 import {withTranslation} from "react-i18next";
 import {ProgressBar} from "react-bootstrap";
 
@@ -56,8 +58,7 @@ class Skills extends Component {
                icons:[
                    {id:1, src: oracle},
                    {id:2, src: mysql},
-                   {id:3, src: postgresql},
-                   {id:4, src: access},
+                   {id:3, src: postgresql}
                ]
            },
            {   id:2,
@@ -99,8 +100,7 @@ class Skills extends Component {
                    {id:4, src: php},
                    {id:4, src: laravel},
                    {id:4, src: bootstrap},
-                   {id:4, src: jquery},
-                   {id:4, src: sonarqube},
+                   {id:4, src: jquery}
                ]
            },
            {   id:5,
@@ -112,12 +112,26 @@ class Skills extends Component {
            {   id:6,
                title:t('skills.title6'),
                icons:[
+                   {id:1, src: talend}
+               ]
+           },
+           {   id:7,
+               title:t('skills.title7'),
+               icons:[
+                   {id:1, src: jenkins},
+                   {id:1, src: sonarqube},
+                   {id:1, src: docker}
+               ]
+           },
+           {   id:8,
+               title:t('skills.title8'),
+               icons:[
                    {id:1, src: intellej},
                    {id:2, src: webstorme},
                    {id:3, src: datagrip},
                    {id:4, src: eclipse},
                ]
-           },
+           }
        ]
         const mySkills = skillsItem.map((skill) =>
                 <tr data-aos="fade-left" key={skill.id}>

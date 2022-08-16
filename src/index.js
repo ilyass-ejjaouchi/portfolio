@@ -8,6 +8,7 @@ import {I18nextProvider} from "react-i18next";
 import common_en from "./translations/en/common.json";
 import common_fr from "./translations/fr/common.json";
 import common_es from "./translations/es/common.json";
+import common_ar from "./translations/ar/common.json";
 //import 'bootstrap/dist/css/bootstrap.min.css';
 
 i18next.init({
@@ -22,6 +23,9 @@ i18next.init({
         },
         es: {
             common: common_es
+        },
+        ar: {
+            common: common_ar
         },
 
     },
