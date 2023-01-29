@@ -11,7 +11,7 @@ class Footer extends Component {
         return (
                 <div className="ui grid footer">
                     <div className="four wide column">
-                        <h1 className="experience">+2</h1><h1 className="years">{t('experience.years')}</h1>
+                        <h1 className="experience">+3</h1><h1 className="years">{t('experience.years')}</h1>
                     </div>
                     <div className="twelve wide column ">
                         <h1 className="titre">{t('experience.describeMe')}</h1>
