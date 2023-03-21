@@ -84,12 +84,6 @@ class Experience extends Component {
                         <div className="description">
                             <p>{experience.description}</p>
                         </div>
-                        <div className="extra">
-                            <div className="ui right floated primary button">
-                                {t('label.discover')}
-                                <i className="right chevron icon"></i>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

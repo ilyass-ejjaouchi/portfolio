@@ -39,14 +39,12 @@ class SocialMedia extends Component {
         const listicons = socialMedias.map((icon) =>
             <div key={icon.id}>
                 <a href={icon.link} target="_blank">
-                    <img className="Socialicon" src={icon.src1} alt={icon.src1}
-                         onMouseOver={e => e.currentTarget.src = icon.src2}
-                         onMouseLeave={e => e.currentTarget.src = icon.src1}/>
+                    <img className="Socialicon" src={icon.src2} alt={icon.src2}/>
                 </a><br/>
             </div>
         );
         return (
-            <div className="six wide column socialMedia">
+            <div className="socialMedia">
                 <div className="right floated">
                     {listicons}
                 </div>

@@ -6,6 +6,7 @@ import SocialMedia from "./SocialMedia/SocialMedia";
 import {withTranslation} from "react-i18next";
 import i18next from 'i18next';
 import {Dropdown} from "semantic-ui-react";
+import imagepro from './../media/photoPro.jpg';
 
 class Image extends Component {
     render() {
@@ -23,7 +24,7 @@ class Image extends Component {
             { key: 'ar', value: 'ar', text: 'Arabe' }
         ]
         return (
-            <div className="ui grid division">
+            <div className="ui grid">
                 <div className="row info">
                     <div className="ten wide column info1">
                         <div>
@@ -45,9 +46,15 @@ class Image extends Component {
                         <button className="ui button large">
                             <Link to="form" spy={true} smooth={true} className="contactMe">{t('info.contactMe')}</Link></button>
                     </div>
-                    <SocialMedia></SocialMedia>
+                    <div className="one wide column ">
+                        <SocialMedia></SocialMedia>
+                    </div>
+                    <div className="five wide column ">
+                        <img className="imagePro" src={imagepro} alt={imagepro}/>
+                    </div>
                 </div>
             </div>
+
         );
     }
 }

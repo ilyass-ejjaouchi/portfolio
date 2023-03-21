@@ -13,7 +13,7 @@ import Language from "./Language/language";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <div id="image"><Image></Image></div>
       <Footer></Footer>
         <div className="ui grid">
@@ -31,7 +31,6 @@ function App() {
             </div>
         </div>
         <div id="experiences"><Experience></Experience></div>
-        <Language></Language>
         <Form id="form"></Form>
     </div>
   );
