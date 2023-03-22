@@ -26,7 +26,7 @@ class Image extends Component {
         return (
             <div className="ui grid info">
                 <div className="row">
-                    <div className="ten wide column">
+                    <div className="eight wide column info1">
                         <div>
                             <Dropdown
                                 onChange= {handleChange}
@@ -40,20 +40,14 @@ class Image extends Component {
                                 text='Select Language'
                             />
                         </div>
-                    </div>
-                    <SocialMedia></SocialMedia>
-                </div>
-                <div className="row">
-                    <div className="ten wide column info1">
-
                         <h1 className="nom">EJJAOUCHI</h1>
                         <h1 className="prenom">ILYASS</h1>
                         <h2>{t('info.title')}</h2>
                         <button className="ui button large">
                             <Link to="form" spy={true} smooth={true} className="contactMe">{t('info.contactMe')}</Link></button>
                     </div>
-                    <div className="five wide column ">
-                        <img className="imagePro" src={imagepro} alt={imagepro}/>
+                    <div className="seven wide column socialMedia">
+                        <SocialMedia></SocialMedia>
                     </div>
                 </div>
             </div>

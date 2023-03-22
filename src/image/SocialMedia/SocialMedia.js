@@ -38,7 +38,7 @@ class SocialMedia extends Component {
         ]
 
         return socialMedias.map((icon) =>
-            <div key={icon.id} className="one wide column">
+            <div key={icon.id}>
                 <a href={icon.link} target="_blank">
                     <img className="Socialicon" src={icon.src2} alt={icon.src2}/>
                 </a><br/>
