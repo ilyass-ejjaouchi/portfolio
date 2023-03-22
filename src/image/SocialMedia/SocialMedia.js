@@ -36,18 +36,12 @@ class SocialMedia extends Component {
                 link:"https://github.com/ilyass-ejjaouchi"
             }
         ]
-        const listicons = socialMedias.map((icon) =>
-            <div key={icon.id}>
+
+        return socialMedias.map((icon) =>
+            <div key={icon.id} className="one wide column">
                 <a href={icon.link} target="_blank">
                     <img className="Socialicon" src={icon.src2} alt={icon.src2}/>
                 </a><br/>
-            </div>
-        );
-        return (
-            <div className="socialMedia">
-                <div className="right floated">
-                    {listicons}
-                </div>
             </div>
         );
     }
