@@ -32,6 +32,10 @@ class Projects extends Component {
                title:t('title.project4'),
                link1:"https://github.com/ilyass-ejjaouchi",
                link2:"https://github.com/ilyass-ejjaouchi"},
+           {   id:5,
+               title:t('title.project5'),
+               link1:"https://github.com/ilyass-ejjaouchi",
+               link2:"https://github.com/ilyass-ejjaouchi"},
        ]
         const projects = projectItems.map((project) =>
                 <tr data-aos="fade-left" key={project.id}>

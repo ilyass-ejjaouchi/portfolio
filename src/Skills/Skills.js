@@ -159,8 +159,8 @@ class Skills extends Component {
                 <h1>{t('label.Languages')}</h1>
                 <hr/>
                 <div>
-                    <b>{t('label.French')}</b><ProgressBar now={80}/>
-                    <b>{t('label.English')}</b><ProgressBar now={70}/>
+                    <b>{t('label.French')}</b><ProgressBar now={100}/>
+                    <b>{t('label.English')}</b><ProgressBar now={90}/>
                     <b>{t('label.Arabic')}</b><ProgressBar now={100}/>
                 </div>
             </div>

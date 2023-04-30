@@ -66,7 +66,7 @@ class Experience extends Component {
                 id:6,
                 company:"ONEE",
                 title:t('experience.title4'),
-                description:t('experience.description5'),
+                description:t('experience.description5').split('\n').map(line => <p>{line}</p>),
                 year:2018,
                 icon: Onee}
         ];
