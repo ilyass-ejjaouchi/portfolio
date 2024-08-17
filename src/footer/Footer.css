@@ -1,0 +1,31 @@
+@import '../image/image.css';
+.card{
+    cursor: pointer;
+    color: #110944 !important;
+    font-family: assistant;
+
+}
+.card:hover {
+    cursor: pointer;
+    background-color: #7864e1;
+    font-family: assistant;
+    color: aliceblue !important;
+}
+.link h4:hover{
+    color: white !important;
+}
+.titre{
+    font-family: MyWebFont !important;
+    color: #110944;
+}
+.years{
+    margin-left: 10%;
+    font-family: MyWebFont !important;
+    color: #7864e1;
+}
+.experience{
+    margin-left: 10%;
+    font-family: MyWebFont;
+    color: #7864e1 !important;
+    font-size: 5em;
+}

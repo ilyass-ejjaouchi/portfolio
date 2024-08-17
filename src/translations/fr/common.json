@@ -1,0 +1,65 @@
+{
+  "langues":"langues",
+  "label": {
+    "Education": "ÉDUCATION",
+    "Contact": "Contact",
+    "French": "FRANÇAIS",
+    "English": "ANGLAIS",
+    "Spanish": "ESPAGNOL",
+    "FirstName": "Prénom",
+    "LastName": "Nom",
+    "Email": "Email",
+    "Message": "Message",
+    "Submit": "Envoyer",
+    "discover": "découvrir plus ...",
+    "Languages": "Langues",
+    "Arabic": "Arabe"
+  },
+  "title": {
+    "project1": "ClubConnect : L'application ultime de gestion de club de tennis,  application web full-stack avec Angular, Spring Boot, JWT, Angular Calendar, Angular Material et Bootstrap.",
+    "project2": "Conception et création d'une API REST qui gère les publications au sein d'une revue scientifique avec spring boot,spring security et JWT",
+    "project3": "Conception et réalisation d'une application mobile pour la gestion des absences avec spring boot et IONIC 4",
+    "project4": "Création d'un moteur de recherche d'images avec React, Redux, Semantic UI et Pixabay API",
+    "project5": "Création d'une application de bureau pour la gestion d'une médiathèque avec JAVA SE, MySQL et Swing",
+    "Projects": "Projets",
+    "Experiences": "Expériences",
+    "Skills": "Compétences",
+    "Education1": "Master en informatique, en ingénierie des systèmes et des logiciels.",
+    "Education2": "Ingénieur logiciel",
+    "Formation1": "Le cœur du master Informatique, parcours Ingénierie Systèmes et Logiciels porte sur les techniques approfondies du développement logiciel, en phase avec les thématiques phares du département de recherche DISC de l'institut FEMTO-ST et de l'écosystème industriel de la formation. Ce parcours est le parcours standard de Master en présentiel; il est renforcé dans le parcours CMI (Cursus Master en Ingénierie, parcours) qui contient en plus quelques Unités d'Enseignement",
+    "Formation2": "Les diplômés de l'ENSA en ingénierie informatique sont capables d'exercer des métiers très variés dans pratiquement tous les secteurs de l'économie. Ils possèdent les compétences techniques nécessaires associées à un bon relationnel et à une sensibilisation aux organisations et au fonctionnement des entreprises. D'un point de vue technique, il/elle a la capacité de concevoir (composants ou architecture logicielle) ainsi que d'intégrer (assemblage de sous-ensembles dont les fonctionnalités et la coordination sont maîtrisées). L'acquisition de ces compétences techniques fait une large part à l'autoformation, de manière à assurer une bonne adaptation à son environnement professionnel et aux évolutions futures."
+  },
+  "experience": {
+    "titleCap": "DÉVELOPPEMENT D'UNE APPLICATION DE RÉSERVATION ET GESTION DES BILLETS ET ABONNEMENTS POUR LES GARES SNCF",
+    "title0": "DÉVELOPPEMENT D’UNE APPLICATION DE PLANIFICATION ET RÉALISATION DES ACTIVITÉS DE MAINTENANCE DES CENTRALES NUCLÉAIRES",
+    "title1": "SOLUTION BANCAIRE NUMÉRIQUE BACK END EN MICRO SERVICES & FRONT END AVEC REACT",
+    "title2": "CONCEPTION ET RÉALISATION D’UNE APPLICATION MOBILE POUR LA GESTION DES CHANTIERS",
+    "title3": "CONCEPTION ET CRÉATION D'UNE APPLICATION WEB DE GESTION DE FICHIERS CSV",
+    "title4": "CONCEPTION ET RÉALISATION D'UNE APPLICATION WEB POUR LA GESTION DES STOCKS",
+    "title5": "STAGE D'OBSERVATION",
+    "descriptionCap": "▪ MIGRATION ET OPTIMISATION\n\n - La migration de Spring à Spring Boot et la mise à niveau vers Java 17 ont été réalisées avec précision. Ces étapes ont permis d'exploiter des fonctionnalités innovantes, améliorant ainsi les performances et la maintenance du code, tout en optimisant les workflows existants.\n\n▪ REFONTE D'ARCHITECTURE\n- Une refonte systématique de l'architecture a été réalisée en intégrant Spring Boot, mettant un accent particulier sur l'optimisation de la gestion des exceptions. Cette révision a augmenté l'efficacité de la manipulation des erreurs, renforçant ainsi la fiabilité de l'application.\n\n ▪ GESTION DE LA QUALITÉ DU CODE\n- Grâce à l’utilisation stratégique de SONAR et Jenkins, des initiatives ont été mises en place pour rehausser la qualité du code. Ces outils ont été cruciaux pour identifier et minimiser la dette technique, promouvant un environnement de codage plus structuré et fiable.\n\n ▪ COLLABORATION TRANSVERSALE\n- Une coordination efficace entre les équipes back-end et front-end a été établie, favorisant une collaboration transversale enrichissante. Cette approche a amélioré la communication avec les Product Owners et l'équipe d'homologation, assurant une synchronisation et une compréhension claires des objectifs et des exigences.\n\n ▪ MENTORAT ET SUPPORT TECHNIQUE\n- Un mentorat et un support technique approfondis ont été fournis, facilitant les phases de migration. L’élaboration de documentations complètes et détaillées a également été une priorité, contribuant ainsi à un environnement d’apprentissage et de développement enrichi.",
+    "description0": "- Analyse et résolution d'incidents et de problèmes de l'application: Des incidents et problèmes variés de l'application ont été analysés et résolus, assurant la continuité des services et la satisfaction des utilisateurs.\n\n- Développement et réalisation de tests unitaires pour les nouvelles fonctionnalités: Des tests unitaires ont été développés et réalisés pour valider la qualité et la performance des nouvelles fonctionnalités introduites.\n\n- Administration de données via des scripts PL/SQL: L'administration des données a été optimisée en utilisant des scripts PL/SQL, permettant une gestion des données plus efficace et fiable.\n\n- Création de jobs Talend: Des jobs ont été créés avec Talend pour automatiser et optimiser différents processus, contribuant ainsi à une meilleure gestion des workflows.\n\n- Conception technique de l'application: Nous avons conçu techniquement l'application en veillant à ce que les solutions mises en place soient solides, fiables et répondent aux besoins du projet.",
+    "description1": "▪ CONCEPTION ET DÉVELOPPEMENT D'UN MODULE DE CRYPTAGE ET DE SCELLEMENT.\n\n- Élaboration d'un module permettant de sécuriser les fichiers téléchargés, essurant une intégrité et une confidentialité robustes durant la transmissionise d'une commande.\n\n- Mise en place d'une fonctionnalité avancée de décryptage, garantissant une vérification approfondie de la validité des fichiers avant toute autre manipulation.\n\n- Introduction d'un système innovant de scellement des fichiers, en utilisant une clé publique distincte pour chaque client, renforçant ainsi la sécurité et l'authenticité des données partagées.\n\n- Configuration d'une méthode de cryptage standardisée, en employant une clé unique pour l'ensemble des clients, optimisant le processus de décryptage et d'accessibilité des fichiers.\n\n▪ MISE EN ŒUVRE D'UNE APPLICATION POUR LA GESTION DES TRANSFERTS INTERNATIONAUX.\n\n- Conception et déploiement d'une application microservices complète, facilitant diverses opérations essentielles liées aux transferts internationaux.\n\n- Perfectionnement du système pour permettre une demande simplifiée de virement international, rationalisant ainsi les transactions financières globales.\n\n- Développement d'une fonction permettant la déclaration facile des bénéficiaires internationaux, augmentant la transparence et la traçabilité des transactions.\n\n- Incorporation d'une fonction de signature électronique pour valider les demandes de virement international, assurant ainsi la sécurité et l'authenticité des demandes.\n\n- Mise en place de fonctionnalités avancées pour la consultation et le suivi en temps réel des transferts internationaux et des déclarations de bénéficiaires, offrant une gestion optimisée et une supervision efficace des transactions.",
+    "description2": "▪ CONCEPTION D'APPLICATION MOBILE : \n\nContribution significative à la conception d’une application mobile robuste, avec la création d'une base de données bien structurée en utilisant MySQL et Hibernate, assurant ainsi l'intégrité, la réactivité et la fiabilité des données manipulées.\n\n▪ AUTHENTIFICATION : \n\nMise en œuvre d’un système d'authentification solide et sécurisé en utilisant JWT et Spring Security, garantissant ainsi que l'accès aux données et aux fonctionnalités de l'application soit réservé aux utilisateurs autorisés et authentifiés.\n\n▪ DÉVELOPPEMENT ET DÉPLOIEMENT : \n\nExploitation de technologies telles que Spring Boot, Angular et Ionic pour un développement efficace et harmonieux de l'application. L'application a ensuite été déployée avec succès sur le cloud via Heroku, assurant une disponibilité et une accessibilité constantes.",
+    "description3": "- L'application a été développée en utilisant PHP avec le framework Laravel. Un job spécifique Laravel a été créé et configuré pour s'exécuter quotidiennement. Ce job automatise la lecture et le traitement des fichiers CSV depuis un serveur FTP, facilitant ainsi l'affichage continu et précis des statistiques, ce qui contribue à faire de l'application un outil fiable pour la visualisation et l'analyse des données.",
+    "description4": "- Le projet consistait en une application monolithique, développée en suivant le modèle de conception MVC (Modèle-Vue-Contrôleur) sur le serveur. Cette méthodologie a permis une organisation structurée et une maintenance plus efficace du code. Pour l’aspect présentation, le moteur de templates Thymeleaf a été employé, facilitant la réalisation d’interfaces utilisateur dynamiques et améliorant ainsi l’expérience utilisateur.",
+    "description5": "- Modernisation et amélioration du réseau LAN de l’agence de service provincial de Beni Mellal, dans le but d'optimiser la performance et la fiabilité du réseau.\n- Installation et configuration de routeurs, facilitant une interconnexion robuste entre les différents sites et le siège de l'ONEE, garantissant ainsi une communication réseau fluide et stable.\n- Mise en œuvre d’une solution d'accès sécurisé via un réseau mobile 4G/3G, permettant une interconnexion fiable et sécurisée des sites distants.\n- Réalisation d’une configuration précise des routeurs pour assurer une liaison BLR (Boucle Locale Radio) efficace et opérationnelle, contribuant à la performance globale du réseau.",
+    "years": "Années d'expérience",
+    "describeMe": "Développeur web et mobile, spécialisé dans les microservices avec java et le front-end avec Angular/react."
+  },
+
+  "info": {
+    "title": "Ingénieur logiciel spécialisé en Spring Boot, Java et Angular, avec une solide expérience dans l'amélioration des architectures et la gestion de la qualité du code. Passionné par la collaboration en équipe et l'excellence des processus de développement.",
+    "contactMe": "Contactez-moi"
+  },
+  "skills": {
+    "title1": "SGBD",
+    "title2": "Analyse et Conception",
+    "title3": "Langages de programmation",
+    "title4": "Développement Web",
+    "title5": "Développement Mobile",
+    "title6": "Intégration de données",
+    "title7": "DevOps",
+    "title8": "Logiciels/IDE"
+  }
+}
